@@ -51,6 +51,6 @@ namespace micromath {
 		}
 
 	private:
-		float vecArr[3]
+		float vecArr[3];
 	};
 }
