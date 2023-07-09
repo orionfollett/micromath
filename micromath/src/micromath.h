@@ -24,8 +24,12 @@
 	normalize
 	magnitude
 	magnitude squared
+
+	Unit tests
+
 */
-#include <iostream>;
+#include <iostream>
+
 namespace micromath {
 	class Vector2 {
 	public:
@@ -71,7 +75,16 @@ namespace micromath {
 	//memory layout: 1D array to minimize memory allocation and deallocation
 	//override indexing operator to make it look like a 2D array
 	class Matrix2 {
-	public:
 
+	public:
+		//returns pointer to first item in the row
+		float* operator[] (size_t index) {
+			if (index < 0 || index > 1) {
+				throw std::out_of_range("Index out of range.");
+			}
+			return &arr[index * 2];
+		}
+	private:
+		float arr[4] = { 0,0,0,0 };
 	};
 }
