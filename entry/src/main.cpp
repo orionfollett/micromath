@@ -1,34 +1,21 @@
 
-#include "micromath.h";
-#include <iostream>;
+#include "micromath.h"
+#include <iostream>
 
 using micromath::Vector2;
 using micromath::Vector3;
 
 int main() {
-	
-	Vector2 v;
-	v.X() = 1;
-	v.Y() = 2;
 
-	v.print();
+	micromath::Vector2 v2;
+	v2.X() = 1.0f;
+	v2.Y() = 2.0f;
 
-	v.X() = 100;
-	v.print();
+	float* v2Ref = (float*)v2;
 
-	float result = v.X() + v.Y();
-	std::cout << result << std::endl;
-
-
-
-	std::cout << *((float*)v) << std::endl;
-
-
-	Vector3 v3;
-
-	*((float*)v3+1) = 1.0f;
-	v3.print();
-
+	*v2Ref = 100.0f;
+	*(v2Ref + 1) = 200.0f;
+	v2.print();
 	std::cin.get();
 	return 0;
 }
