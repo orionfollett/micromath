@@ -3,8 +3,7 @@
 #include <iostream>;
 
 using micromath::Vector2;
-
-
+using micromath::Vector3;
 
 int main() {
 	
@@ -23,6 +22,12 @@ int main() {
 
 
 	std::cout << *((float*)v) << std::endl;
+
+
+	Vector3 v3;
+
+	*((float*)v3+1) = 1.0f;
+	v3.print();
 
 	std::cin.get();
 	return 0;
