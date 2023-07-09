@@ -1,0 +1,4 @@
+﻿  micromath.cpp
+C:\Users\Orion\Desktop\Orion Programming\micromath\micromath\src\micromath.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Orion\Desktop\Orion Programming\micromath\micromath\src\micromath.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  micromath.vcxproj -> C:\Users\Orion\Desktop\Orion Programming\micromath\x64\Debug\micromath.lib

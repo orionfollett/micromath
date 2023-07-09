@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Orion\Desktop\Orion Programming\micromath\entry\src\main.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Orion\Desktop\Orion Programming\micromath\micromath\src\micromath.h(28,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Orion\Desktop\Orion Programming\micromath\entry\src\main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating code
+  1 of 15 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  entry.vcxproj -> C:\Users\Orion\Desktop\Orion Programming\micromath\x64\Release\entry.exe
